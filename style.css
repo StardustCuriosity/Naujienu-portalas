@@ -16,7 +16,74 @@
     object-fit: cover;
 }
 
-.d-flex {
-	flex-grow: 1;
-	min-width: 18rem;
+.antraste{
+    text-align: center;
+    color: firebrick;
+    padding-bottom: 1px;
+}
+
+.prenumeratabtn{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.prenumerata{
+    margin-left: 15px;
+    border: none;
+    background: firebrick;
+    color: white;
+    padding: 14px 18px;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.prenumerata:hover{
+    opacity: 1;
+}
+
+.form-popup {
+    display: none;
+    position: sticky;
+    top: 0px;
+    margin-left: 15px;
+}
+  
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+  
+.form-container input[type=text]{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+  
+.form-container input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+  
+.form-container .btn {
+    background-color: firebrick;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+.form-container .cancel {
+    background-color: black;
+    color: white;
+}
+  
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
 }

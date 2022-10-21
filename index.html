@@ -50,9 +50,21 @@
         	</div>
 			
 			<!-- Antraštė -->
-			<div>
-			
+			<div class="antraste">
+				<h1>Naujienos</h1>
 			</div>
+			<div class="prenumeratabtn">
+				<button class="prenumerata" onclick="openForm()">Užsiprenumeruoti naujienas</button>
+				<script src="script.js"></script>
+			</div>
+			<div class="form-popup" id="prenumeratosForma">
+				<form action="/action_page.php" class="form-container">
+				  <label for="email"><b>El. paštas</b></label>
+				  <input type="text" placeholder="Įveskite el. paštą" name="email" required>
+				  <button type="submit" class="btn">Prenumeruoti</button>
+				  <button type="button" class="btn cancel" onclick="closeForm()">Uždaryti</button>
+				</form>
+			  </div>
 			
 			<!-- Straipsnių blokai -->
 			<div class="straipsniai">
