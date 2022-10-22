@@ -16,6 +16,12 @@
     object-fit: cover;
 }
 
+.d-flex {
+	
+	flex-grow: 1;
+	min-width: 20rem;
+}
+
 .antraste{
     text-align: center;
     color: firebrick;
