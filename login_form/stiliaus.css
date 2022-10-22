@@ -2,12 +2,12 @@
 
 :root {
      --bs-font-sans-serif: system-ui, -apple-system, Arial, "Helvetica Neue", sans-serif, "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-     --bs-gradient: linear-gradient(180deg, rgba(129, 119, 119, 0.15), rgba(193, 175, 175, 0));
+     --bs-gradient: linear-gradient(180deg, rgba(254, 254, 254, 0.15), rgba(193, 175, 175, 0));
      --bs-body-font-family: var(--bs-font-sans-serif);
      --bs-body-font-size: 1rem;
      --bs-body-font-weight: 400;
      --bs-body-line-height: 1.5;
-     --bs-body-color: #07119c;
+     --bs-body-color: #353749;
      --bs-body-bg: rgb(121, 7, 62);
      --bs-border-width: 2px;
      --bs-border-style: solid;
@@ -47,10 +47,10 @@ body {
      font-size: 1rem;
      font-weight: 400;
      line-height: 1.5;
-     color: #212529;
-     background-color: rgb(233, 213, 213);
+     color: rgb(10, 10, 10);
+     background-color: rgb(233, 240, 240);
      background-clip: padding-box;
-     border: 1px solid #c0d2e4;
+     border: 1px solid #091fc3;
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
@@ -59,11 +59,11 @@ body {
 }
 
 .form-control:focus {
-     color: #212529;
-     background-color: #fff;
-     border-color: #779ed8;
+     color: #040404;
+     background-color: hsl(0, 0%, 100%);
+     border-color: #051e48;
      outline: 0;
-     box-shadow: 0 0 0 .25rem rgba(149, 2, 81, 0.582)
+     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.582)
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -133,15 +133,15 @@ body {
      --bs-btn-padding-y: 0.375rem;
      --bs-btn-font-family: ;
      --bs-btn-font-size: 1rem;
-     --bs-btn-font-weight: 400;
-     --bs-btn-line-height: 1.5;
-     --bs-btn-color: #252a30;
-     --bs-btn-bg: transparent;
+     --bs-btn-font-weight: 450;
+     --bs-btn-line-height: 1.0;
+     --bs-btn-color: #8ca4c2;
+     --bs-btn-bg: #38374bd1;
      --bs-btn-border-width: 1px;
      --bs-btn-border-color: transparent;
      --bs-btn-border-radius: 0.375rem;
      --bs-btn-hover-border-color: transparent;
-     --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+     --bs-btn-box-shadow: inset 0 1px 0 rgba(178, 177, 202, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
      --bs-btn-disabled-opacity: 0.65;
      --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
      display: inline-block;
@@ -160,6 +160,6 @@ body {
      user-select: none;
      border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
      border-radius: var(--bs-btn-border-radius);
-     background-color: var(--bs-btn-bg);
+     background-color: var(--bs-btn-bg); 
      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
