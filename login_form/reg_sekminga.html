@@ -7,7 +7,7 @@
           <meta name="keywords" content="HTML, CSS">
           <meta name="description" content="Login to 1News">
           <meta name="author" content="vydas">
-          <title>Prisijungimas prie naujienų portalo</title>
+          <title>Registracija sėkminga</title>
 
           <link href="stiliaus.css" rel="stylesheet">
 
@@ -18,11 +18,11 @@
           <main class="register w-100 m-auto">
                <form>
                     <img class="mb-4" src="../news_logo_transp.png" alt="" width="120" height="50">
-                    <h3 class="h3 mb-3 fw-normal"><b>Prisijungimas</b></h3>
+                    <h5 class="h3 mb-3 fw-normal">Registracija sėkminga. Galite prisijungti prie 1News</h5>
 
                     <div class="form-floating">
-                         <input type="email" class="form-control" id="floatingInput" placeholder="pavad@pavad.com">
-                         <label for="floatingInput">El. pašto adresas</label>
+                         <input type="text" class="form-control" id="floatingInput" placeholder="vardas">
+                         <label for="floatingInput">Vardas</label>
                     </div>
 
                     <div class="form-floating">
@@ -30,21 +30,16 @@
                          <label for="floatingPassword">Slaptažodis</label>
                          <input type="hidden" name="action" value="login">
                          <button class="btn btn-primary btn-sm" type="button" onclick="location.href='../index.html';">Prisijungti</button>
-                    
                     </div>
                     <label>
-                         <input type="checkbox" value="remember-me"> Išsaugoti prisijungimo duomenis
-                    </label>
+                         <input type="checkbox" value="remember-me"><small>Išsaugoti prisijungimo duomenis</small></label>
                     </div>
 
                     <div class="row">
-                         <!--<div class="col-lg-6"><a href="/registracija.html">Registrieren</a></div> -->
-
-                         <div class="col-lg-6 text-right"><a href="http://213.197.178.50">Užmiršau
-                                   slaptažodį</a></div>
+                          <div class="col-lg-6 text-right"><a href="login_form/registracija.html"><small>Užmiršau slaptažodį</small></a></div>
                     </div>
                     <hr>
-                    <p class="mt-3 mb-3 text-muted">&copy; vydas 2022</p>
+                    <p class="mt-3 mb-3 text-muted"><small>&copy;vydas 2022</small></p>
                </form>
           </main>
      </body>

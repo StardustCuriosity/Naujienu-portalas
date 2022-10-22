@@ -8,7 +8,7 @@ body {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #efecec;
+  background-color: #ffffff;
 }
 
 .register {
@@ -18,9 +18,9 @@ body {
 
 .register .form-floating:focus-within {
 
-  background: rgb(252, 252, 252);
+  background: rgb(255, 255, 255);
 
-  color: rgb(242, 13, 135);
+  color: rgb(0, 17, 255);
 }
 
 .register input[type="email"] {
@@ -78,7 +78,7 @@ body {
 
 .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
-  --bs-btn-bg: #1d1ad5d2;
+  --bs-btn-bg: #464574d2;
   --bs-btn-border-color: #f60dc8;
   --bs-btn-hover-color: rgb(6, 6, 6);
   --bs-btn-hover-bg: #25d840;
