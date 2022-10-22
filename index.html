@@ -58,9 +58,9 @@
 				<script src="script.js"></script>
 			</div>
 			<div class="form-popup" id="prenumeratosForma">
-				<form action="/action_page.php" class="form-container">
+				<form onsubmit="alert('Naujienos užprenumeruotos')" class="form-container">
 				  <label for="email"><b>El. paštas</b></label>
-				  <input type="text" placeholder="Įveskite el. paštą" name="email" required>
+				  <input type="text" placeholder="Įveskite el. paštą" name="elpastas" required>
 				  <button type="submit" class="btn">Prenumeruoti</button>
 				  <button type="button" class="btn cancel" onclick="closeForm()">Uždaryti</button>
 				</form>
