@@ -20,7 +20,7 @@ body {
 
   background: rgb(255, 255, 255);
 
-  color: rgb(0, 17, 255);
+  color: rgb(19, 31, 207);
 }
 
 .register input[type="email"] {
@@ -78,9 +78,9 @@ body {
 
 .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
-  --bs-btn-bg: #464574d2;
-  --bs-btn-border-color: #f60dc8;
-  --bs-btn-hover-color: rgb(6, 6, 6);
+  --bs-btn-bg: #000000d2;
+  --bs-btn-border-color: #c61772;
+  --bs-btn-hover-color: rgb(39, 37, 37);
   --bs-btn-hover-bg: #25d840;
   --bs-btn-hover-border-color: #0a58ca;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
@@ -91,4 +91,9 @@ body {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #f75e0c;
   --bs-btn-disabled-border-color: #0d6efd
+}
+.copy{
+  position: fixed;
+  bottom: 0;
+  left: 200px;
 }
