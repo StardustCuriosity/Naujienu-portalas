@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scaled">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous">
+		<title>Naujienu portalas</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body class="m-0 p-0">
+		<div class="container-fluid m-0 p-0">
+			<!-- Navigacijos juosta -->
+			<div>
+				<nav class="navbar navbar-expand-lg bg-light">
+					<div class="container-fluid">
+						<a href="index.html"><img width="200px" src="news_logo_transp.png" /></a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a style="color:black" class="nav-link ms-3" aria-current="page"
+										href="ukraina.html" id="ukraina">Ukraina</a>
+								</li>
+								<li class="nav-item">
+									<a style="color:firebrick" class="nav-link ms-3" href="politika.html"
+										id="politika">Politika</a>
+								</li>
+								<li class="nav-item">
+									<a style="color:black" class="nav-link ms-3" aria-current="page"
+										href="mokslas.html" id="mokslas">Mokslas</a>
+								</li>
+								<li class="nav-item">
+									<a style="color:firebrick" class="nav-link ms-3" href="sportas.html"
+										id="sportas">Sportas</a>
+								</li>
+								<li class="nav-item">
+									<a style="color:black" class="nav-link ms-3" aria-current="page"
+										href="kultura.html" id="kultura">Kultūra</a>
+								</li>
+							</ul>
+
+						</div>
+						<div class="d-grid gap-2 d-md-flex justify-content-md-end ">
+								<button class="btn btn-dark btn-sm me-md-2" id="" type="button" onclick="location.href='login_form/prisijungimas.html';">Prisijungti</button>
+								<button class="btn btn-dark btn-sm me-md-2" id="" type="button" onclick="location.href='login_form/registracija.html';">Registruotis</button>
+						</div>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="search" placeholder="Įveskite tekstą">
+							<button style="color:darkred" class="btn btn-outline-success-danger" type="button"
+								id="mygtukasPaieska">Paieška</button>
+						</form>
+					</div>
+				</nav>
+			</div>
+
+			<!-- Antraštė -->
+			<div class="antraste">
+				<h1>Mokslo naujienos</h1>
+			</div>
+			<div class="prenumeratabtn">
+				<button class="prenumerata" onclick="openForm()">Užsiprenumeruoti naujienas</button>
+				<script src="script.js"></script>
+			</div>
+			<div class="form-popup" id="prenumeratosForma">
+				<form onsubmit="alert('Naujienos užprenumeruotos')" class="form-container">
+				  <label for="email"><b>El. paštas</b></label>
+				  <input type="text" placeholder="Įveskite el. paštą" name="elpastas" required>
+				  <button type="submit" class="btn">Prenumeruoti</button>
+				  <button type="button" class="btn cancel" onclick="closeForm()">Uždaryti</button>
+				</form>
+			  </div>
+
+			<!-- Straipsnių blokai -->
+			<div class="straipsniai">
+				<div class="pagrindinis">
+					<article id="moksl1">
+						<img src="images/mokslas_robot.jfif" alt="Mokslo naujienos" width="15%">
+						<h2>Politika1</h2>
+                        <p class="id-StoryElement-timestamp"><span class="id-StoryElement-timestamp-published"><span
+                            class="id-StoryElement-timestamp-prefix">Įkelta: </span>
+                            <time datetime="2022-10-23 15:18">2022-10-23, 15:18</time></span> | <span id="time"></span> minute read </p>          
+							
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+							cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+							arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+							fames ac.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                fames ac.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                    cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                    arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                    fames ac.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                        cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                        arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                        fames ac.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                        cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                        arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                        fames ac.
+								<a href="login_form/registracija.html" style="float: right;"><br>Komentarai</br></a></p>
+								 
+					</article>
+					<article id="moksl2">
+						<img src="images/mokslas_molek.jpg" alt="Mokslo naujienos">
+						<h2>Mokslas2</h2>
+						
+                        <p class="id-StoryElement-timestamp"><span class="id-StoryElement-timestamp-published"><span
+                            class="id-StoryElement-timestamp-prefix">Įkelta: </span>
+                            <time datetime="2022-10-23 15:14">2022-10-23, 15:14</time></span> | <span id="time2"></span> minute read </p>
+							
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+							cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+							arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+							fames ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+							cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+							arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+							fames ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+							cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+							arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+							fames ac.
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                fames ac.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                fames ac.</p>
+							<a href="login_form/registracija.html" style="float: right;"><br>Komentarai</br></a></p>
+					</article>
+					<article id="moksl3">
+						<img src="images/mokslas_hack.png" alt="Mokslo naujienos">
+						<h2>Mokslas3</h2>
+                        <p class="id-StoryElement-timestamp"><span class="id-StoryElement-timestamp-published"><span
+                            class="id-StoryElement-timestamp-prefix">Įkelta: </span>
+                            <time datetime="2022-10-23 15:12">2022-10-23, 15:12</time></span> | <span id="time3"></span> minute read </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+							cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+							arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+							fames ac.
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+                                cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+                                arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+                                fames ac.</p>
+							<a href="login_form/registracija.html" style="float: right;"><br>Komentarai</br></a></p>
+					</article>
+					<article id="moksl4">
+						<img src="images/mokslas_inzin.jpg" alt="Mokslo naujienos">
+						<h2>Mokslas4</h2>
+                        <p class="id-StoryElement-timestamp"><span class="id-StoryElement-timestamp-published"><span
+                            class="id-StoryElement-timestamp-prefix">Įkelta: </span>
+                            <time datetime="2022-10-23 15:05">2022-10-23, 15:05</time> | <span id="time4"></span> minute read </span></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+							cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+							arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+							fames ac.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+								cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+								arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+								fames ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+								cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+								arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+								fames ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+								cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+								arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+								fames ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a
+								cras semper auctor. Tellus id interdum velit laoreet id donec ultrices tincidunt
+								arcu. In pellentesque massa placerat duis ultricies lacus sed. Et netus et malesuada
+								fames ac.
+							<a href="login_form/registracija.html" style="float: right;"><br>Komentarai</br></a></p>
+					</article>
+				</div>
+			</div>
+			<script src="mokslas_script.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+				crossorigin="anonymous"></script>
+
+
+	</body>
+
+</html>
