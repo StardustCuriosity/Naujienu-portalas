@@ -115,9 +115,9 @@
 
 .nav-link {
     color: firebrick!important;
-    font-weight: bold;
     border-bottom: 1px solid transparent;
 }
 .nav-link:hover {
-    border-bottom: 1px solid firebrick;
+    font-weight: bold;
+    border-bottom: 2px solid firebrick;
 }
