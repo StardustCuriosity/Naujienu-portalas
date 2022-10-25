@@ -112,3 +112,11 @@
 * {
   box-sizing: border-box;
 }
+
+.nav-link {
+    color: #1f1e2e!important;
+    border-bottom: 1px solid transparent;
+}
+.nav-link:hover {
+        border-bottom: 1px solid red;
+}
