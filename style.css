@@ -112,6 +112,3 @@
 * {
   box-sizing: border-box;
 }
-.nav-item a:hover:after {
-    width: 100%;
-} 
