@@ -112,6 +112,6 @@
 * {
   box-sizing: border-box;
 }
-.nav-item:hover {
-    opacity: 1;
+.nav-item a:hover:after {
+    width: 100%;
 } 
