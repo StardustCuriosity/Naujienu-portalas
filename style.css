@@ -112,3 +112,6 @@
 * {
   box-sizing: border-box;
 }
+.nav-item:hover {
+    opacity: 1;
+} 
