@@ -114,9 +114,9 @@
 }
 
 .nav-link {
-    color: #1f1e2e!important;
-    border-bottom: 1px solid transparent;
+    color: firebrick!important;
+    border: 1px solid transparent;
 }
 .nav-link:hover {
-        border: 1px firebrick;
+    border: 1px firebrick;
 }
