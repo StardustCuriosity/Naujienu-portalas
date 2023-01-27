@@ -121,3 +121,11 @@
     font-weight: bold;
     border-bottom: 2px solid firebrick;
 }
+#mygtukasPaieska {
+    color: firebrick!important;
+    border-bottom: 1px solid transparent;
+}
+#mygtukasPaieska:hover {
+    font-weight: bold;
+    border-bottom: 2px solid firebrick;
+}
