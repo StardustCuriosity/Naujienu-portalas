@@ -115,7 +115,7 @@
 
 .nav-link {
     color: firebrick!important;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 .nav-link:hover {
     font-weight: bold;
@@ -123,9 +123,11 @@
 }
 #mygtukasPaieska {
     color: firebrick!important;
+    border-bottom: 2px solid transparent;
    
 }
 #mygtukasPaieska:hover {
     font-weight: bold;
     border: 2px solid;
 }
+
