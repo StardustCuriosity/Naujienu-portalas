@@ -118,7 +118,7 @@
     border: 2px solid transparent;
 }
 .nav-link:hover {
-    font-weight: bold;
+    
     border-bottom: 2px solid firebrick;
 }
 #mygtukasPaieska {
@@ -127,7 +127,7 @@
    
 }
 #mygtukasPaieska:hover {
-    font-weight: bold;
+    
     border: 2px solid;
 }
 
